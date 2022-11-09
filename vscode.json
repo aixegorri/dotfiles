@@ -1,0 +1,32 @@
+{
+  "security.workspace.trust.untrustedFiles": "open",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "One Dark Pro",
+  "window.nativeTabs": true,
+  "editor.fontFamily": "Operator Mono, 'CascadiaCodePL-SemiLight', FiraCode-Retina, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontLigatures": false,
+  "editor.tabSize": 2,
+  "editor.fontSize": 14,
+  "editor.wordWrap": "on",
+  "editor.formatOnPaste": true,
+  "files.autoSave": "onFocusChange",
+  "material-icon-theme.saturation": 0.8,
+  "i18n-ally.displayLanguage": "es",
+  "workbench.startupEditor": "none",
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client",
+    "editor.formatOnSave": true
+  },
+  "editor.inlineSuggest.enabled": true,
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": true,
+    "plaintext": true,
+    "markdown": true
+  },
+  "svelte.enable-ts-plugin": true,
+  "explorer.confirmDelete": false,
+  "redhat.telemetry.enabled": true,
+  "editor.linkedEditing": true,
+  "liveServer.settings.donotShowInfoMsg": true
+}

@@ -209,6 +209,10 @@ hotkeys:
     - ⌘-E
   switch-profile:
     - ⌘-Shift-E
+  focus-all-tabs:
+    - ⌘-⌥-Shift-I
+  command-selector:
+    - ⌘-Shift-P
 terminal:
   searchOptions: {}
   colorScheme:
@@ -225,7 +229,7 @@ terminal:
       - '#c678dd'
       - '#56b6c2'
       - '#dcdfe4'
-      - '#90a4ae'
+      - '#455a64'
       - '#e06c75'
       - '#98c379'
       - '#e5c07b'
@@ -234,6 +238,8 @@ terminal:
       - '#56b6c2'
       - '#dcdfe4'
     selection: ''
+    cursorAccent: ''
+    selectionForeground: ''
   customColorSchemes:
     - name: OneHalfDark
       foreground: '#dcdfe4'
@@ -248,7 +254,7 @@ terminal:
         - '#c678dd'
         - '#56b6c2'
         - '#dcdfe4'
-        - '#90a4ae'
+        - '#455a64'
         - '#e06c75'
         - '#98c379'
         - '#e5c07b'

@@ -22,6 +22,7 @@
   "editor.fontSize": 14,
   "editor.wordWrap": "on",
   "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
   "editor.cursorBlinking": "phase",
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.linkedEditing": true,

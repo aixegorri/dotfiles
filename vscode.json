@@ -5,12 +5,6 @@
   "window.nativeTabs": true,
   "files.autoSave": "onFocusChange",
   "explorer.confirmDelete": false,
-  "github.copilot.enable": {
-    "*": true,
-    "yaml": true,
-    "plaintext": true,
-    "markdown": true
-  },
   // 🎨 VS Code UI
   "workbench.iconTheme": "material-icon-theme",
   "workbench.colorTheme": "One Dark Pro",
@@ -29,6 +23,7 @@
   "editor.guides.bracketPairsHorizontal": false,
   // 🐙 Git
   "git.confirmSync": false,
+  "git.autofetch": true,
   // ⬛️ Terminal
   "terminal.external.osxExec": "Warp.app",
   // 🔦 Linter
@@ -46,10 +41,20 @@
   "editor.formatOnPaste": true,
   "editor.formatOnSave": false,
   "[javascript][javascriptreact][typescript][typescriptreact]": {
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[css][scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
   },
   // 🔌 Plugins
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": true,
+    "plaintext": true,
+    "markdown": true
+  },
   "i18n-ally.displayLanguage": "es",
   "liveServer.settings.donotShowInfoMsg": true
 }

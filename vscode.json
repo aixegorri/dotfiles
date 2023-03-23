@@ -28,7 +28,8 @@
   "terminal.external.osxExec": "Warp.app",
   // 🔦 Linter
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
+    "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": true
   },
   "eslint.validate": [
     "javascript",
@@ -36,6 +37,9 @@
     "typescript",
     "typescriptreact"
   ],
+  "stylelint.validate": ["css", "scss"],
+  "css.validate": false,
+	"scss.validate": false,
   // ✏️ Formatter
   "editor.formatOnPaste": true,
   "editor.formatOnSave": false,

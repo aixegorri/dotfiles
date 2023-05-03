@@ -23,3 +23,6 @@ load-nvmrc() {
 }
 add-zsh-hook chpwd load-nvmrc
 load-nvmrc
+
+# Github Copilot
+eval "$(github-copilot-cli alias -- "$0")"

@@ -55,9 +55,10 @@
   // 🔌 Plugins
   "github.copilot.enable": {
     "*": true,
-    "yaml": true,
     "plaintext": true,
-    "markdown": true
+    "markdown": true,
+    "scminput": false,
+    "yaml": true
   },
   "i18n-ally.displayLanguage": "es",
   "liveServer.settings.donotShowInfoMsg": true

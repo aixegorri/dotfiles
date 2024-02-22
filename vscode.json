@@ -28,8 +28,8 @@
   "terminal.external.osxExec": "Warp.app",
   // 🔦 Linter
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true,
-    "source.fixAll.stylelint": true
+    "source.fixAll.eslint": "explicit",
+    "source.fixAll.stylelint": "explicit"
   },
   "eslint.validate": [
     "javascript",
@@ -43,7 +43,7 @@
   // ✏️ Formatter
   "editor.formatOnPaste": true,
   "editor.formatOnSave": false,
-  "prettier.requireConfig": true,
+  "prettier.requireConfig": false,
   "[javascript][javascriptreact][typescript][typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true

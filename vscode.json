@@ -21,6 +21,9 @@
   "editor.inlineSuggest.enabled": true,
   "editor.guides.bracketPairs": true,
   "editor.guides.bracketPairsHorizontal": false,
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.guides.highlightActiveBracketPair": true,
+  "editor.stickyScroll.enabled": true,
   // 🐙 Git
   "git.confirmSync": false,
   "git.autofetch": true,
@@ -44,6 +47,11 @@
   "editor.formatOnPaste": true,
   "editor.formatOnSave": false,
   "prettier.requireConfig": false,
+  "prettier.singleQuote": true,
+  "prettier.semi": false,
+  "prettier.trailingComma": "none",
+  "prettier.bracketSpacing": true,
+  "prettier.printWidth": 80,
   "[javascript][javascriptreact][typescript][typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true
@@ -61,5 +69,5 @@
     "yaml": true
   },
   "i18n-ally.displayLanguage": "es",
-  "liveServer.settings.donotShowInfoMsg": true
+  "liveServer.settings.donotShowInfoMsg": true,
 }

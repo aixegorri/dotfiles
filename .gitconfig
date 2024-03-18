@@ -1,0 +1,6 @@
+# This is Git's per-user configuration file.
+[user]
+	name = Karlos Olivares
+	email = karlos@bitgune.com
+[init]
+	defaultBranch = main
